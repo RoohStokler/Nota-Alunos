@@ -19,6 +19,7 @@ public class Principal {
 
         a.atividade1();
         JOptionPane.showMessageDialog(null, a.atividade1());
+        JOptionPane.showMessageDialog(null, a.notaAluno(Integer.parseInt(JOptionPane.showInputDialog("Digite o código"))));
 
     }
 
