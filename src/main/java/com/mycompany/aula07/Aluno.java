@@ -13,14 +13,15 @@ import javax.swing.JOptionPane;
  */
 public class Aluno {
 
-    public String atividade1() {
-        String disc[] = {"Matemática", "Português", "Física", "História", "Geografia"};
-        double nota[] = new double[5];
+     String disc[] = {"Matemática", "Português", "Física", "História", "Geografia"};
+    double nota[] = new double[5];
+
+    public String atividade3() {
 
         for (int i = 0; i < disc.length; i++) {
             nota[i] = Double.parseDouble(JOptionPane.showInputDialog("Nota de " + disc[i]));
         }
-
+        
         String result = "";
 
         for (int i = 0; i < disc.length; i++) {
@@ -28,11 +29,9 @@ public class Aluno {
         }
         return result;
     }
-    public String notaPesquisa(int indice){
-        String[] nota = null;
-        String[] disc = null;
-        return disc[indice] + " - " + nota[indice];
-    
+
+    public String notaAluno(int parseInt) {
+        return disc + ": " + nota;
     }
 
 }
