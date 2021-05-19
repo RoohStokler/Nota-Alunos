@@ -14,14 +14,9 @@ import javax.swing.JOptionPane;
 public class Principal {
 
     public static void main(String[] args) {
-        //    Calculo calc = new Calculo();
-
-        //    calc.soma();
-        //    System.out.println(calc.soma(2, 2));
-        //    System.out.println(calc.soma(2, 2, 2));
+ 
         Aluno a = new Aluno();
 
-        //a.cadastrarAluno();
         a.atividade1();
         JOptionPane.showMessageDialog(null, a.atividade1());
 
