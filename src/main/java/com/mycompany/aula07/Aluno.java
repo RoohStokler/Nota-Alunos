@@ -13,19 +13,6 @@ import javax.swing.JOptionPane;
  */
 public class Aluno {
 
-    public void cadastrarAluno() {
-        String a[] = new String[5];
-        String m[] = {"Matemática", "Português", "Ciências"};
-
-        for (int i = 0; i < a.length; i++) {
-            a[i] = JOptionPane.showInputDialog("Digite do aluno " + i);
-        }
-
-        for (String aluno : a) {
-            System.out.println("Aluno: " + aluno);
-        }
-    }
-
     public String atividade1() {
         String disc[] = {"Matemática", "Português", "Física", "História", "Geografia"};
         double nota[] = new double[5];
